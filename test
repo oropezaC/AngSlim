@@ -1,0 +1,41 @@
+
+
+// $input = $request->getParsedBody();
+// $query = "INSERT INTO
+//           estudiante
+//           (num_ctrl,nombre,a_paterno,a_materno,telefono,promedio)
+//           VALUES
+//           (:num_ctrl,:nombre,:paterno,:materno,:telefono,:promedio)
+//           ";
+// $sth = $this->db->prepare($query);
+// $sth->bindParam("num_ctrl", $input['num_ctrl']);
+// $sth->bindParam("nombre", $input['nombre']);
+// $sth->bindParam("paterno", $input['paterno']);
+// $sth->bindParam("materno", $input['materno']);
+// $sth->bindParam("telefono", $input['telefono']);
+// $sth->bindParam("promedio", $input['promedio']);
+// $sth->execute();
+ //$request = $app->request;
+
+
+
+
+
+
+ //  $insert = $con->query("INSERT INTO
+ //    estudiante (num_ctrl,nombre,a_paterno,a_materno,telefono,promedio)
+ //    VALUES
+ //    ('{$request->post("num_control")}','{$request->post("nombre")}',
+ //    '{$request->post("paterno")}','{$request->post("materno")}',
+ //    '{$request->post("telefono")}','{$request->post("promedio")}'
+ //  )");
+
+
+ // $app->get('/estudiante',function() use($con,$app) {
+ //  	$select = $con->query("select * from estudiante;");
+ //   	$user=array();
+ //  	while($fila=mysqli_fetch_assoc($select)) {
+ //  		$user[]=$fila;
+ //  	}
+ //  	echo json_encode($user);
+ //  });

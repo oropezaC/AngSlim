@@ -1,0 +1,17 @@
+{
+  "name": "slim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.3"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "build-js": "watchify cliente/app.js -o public/build.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
